@@ -14,6 +14,11 @@ public class R {
 	public static int no;
 	public static SaramVo sarmVo;
 	public static SaramVo[] saramArr;
+	public static SaramVo saramVo;
+	public static SaramVo saramVos;
+	
+	public static final int SEARCH=0, DEDAIL=1;
+	public static int type = 0;
 	
 	public static final SaramView menuView = new MenuView();
 	

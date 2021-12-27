@@ -1,6 +1,6 @@
 package org.comstudy21.saram.model;
 
-import org.comstudy21.saram.SaramMain;
+
 
 // 루즈 커플링
 // 결합도 낮추고 응집력 높여라.
@@ -71,6 +71,7 @@ public class SaramDao {
          System.out.println(">>> 더이상 입력이 불가능합니다!");
          return;
       }
+      vo.setNo(sequenceNo++);
       saramArr[top++] = vo;
    }
    // 수정
